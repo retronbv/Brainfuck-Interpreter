@@ -1,3 +1,7 @@
+import sys
+
+__version__ = '1.0.0'
+
 def run(prg):
   PrgPos = 0
   mem = [0]
