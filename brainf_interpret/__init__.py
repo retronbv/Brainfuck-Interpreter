@@ -1,8 +1,8 @@
 import sys
 
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 
-def run(prg):
+def run(prg, showMem=False):
   PrgPos = 0
   mem = [0]
   memPos = 0
@@ -54,3 +54,5 @@ def run(prg):
                       countClosed -= 1
                   PrgPos -= 1
       PrgPos += 1
+  if (showMem):
+    print(mem)
