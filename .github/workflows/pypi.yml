@@ -11,7 +11,7 @@ jobs:
       run: ls | echo
     - name: Build package
       if: "contains(github.event.head_commit.message, '[Release]')"
-      run: python setup.py sdist bdist_wheel
+      run: python ./../../setup.py sdist bdist_wheel
     - name: Publish package
       if: "contains(github.event.head_commit.message, '[Release]')"
       uses: pypa/gh-action-pypi-publish@master
