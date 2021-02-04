@@ -1,7 +1,7 @@
 # Brainfuck Interpreter
-A Brainfuck interpreter!
+A Brainfuck interpreter written in Python!
 
-**BIG HELP FROM [TOUCHCREATOR](https://github.com/Touchcreator)**
+Made by **[Touchcreator](https://repl.it/@Touchcreator)**, **[retronbv](https://repl.it/@retronbv)** and **[thecoder876](https://repl.it/@thecoder876)**
 
 ```shell
 $ pip install brainf_interpret
