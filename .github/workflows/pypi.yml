@@ -8,7 +8,7 @@ jobs:
       if: "contains(github.event.head_commit.message, '[Release]')"
       run: pip install wheel
     - name: Get Current Directory
-      run: ls
+      run: ls | echo
     - name: Build package
       if: "contains(github.event.head_commit.message, '[Release]')"
       run: python setup.py sdist bdist_wheel
